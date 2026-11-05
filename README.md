@@ -1,5 +1,7 @@
 # Vitall Launcher
 
+**🌐 Idioma:** **Português** | [English](https://github.com/kauavfialho/vitall-launcher/blob/main/README.en.md)
+
 Um launcher gratuito que reúne os aplicativos da Vitall Studios em um só lugar. Por ele, você instala, abre e atualiza cada um, sem ficar procurando arquivos. Cada projeto tem o seu próprio repositório.
 
 ## Aplicativos
