@@ -98,6 +98,6 @@
   });
   // voltou para a janela: o usuario pode ter instalado ou removido algo
   window.addEventListener('focus', () => { if(!Object.values(estado).some(e => e && !e.erro)) atualizarLista(); });
-  window.vital.versao().then(v => { document.getElementById('versao').textContent = `Vital Solutions ${v}`; });
+  window.vital.versao().then(v => { document.getElementById('versao').textContent = `Vitall Launcher ${v}`; });
   atualizarLista();
 })();

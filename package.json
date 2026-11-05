@@ -1,8 +1,8 @@
 {
-  "name": "vital-solutions",
-  "productName": "Vital Solutions",
-  "version": "1.0.1",
-  "description": "Launcher dos aplicativos da Vital Solutions",
+  "name": "vitall-launcher",
+  "productName": "Vitall Launcher",
+  "version": "1.0.2",
+  "description": "Launcher dos aplicativos da Vitall Studios",
   "main": "electron/main.js",
   "author": "Kauã Fialho",
   "license": "MIT",
@@ -18,9 +18,9 @@
     "electron-builder": "26.18.0"
   },
   "build": {
-    "appId": "com.kauafialho.vitalsolutions",
-    "productName": "Vital Solutions",
-    "artifactName": "Vital-Solutions-${os}-${arch}.${ext}",
+    "appId": "com.kauafialho.vitalllauncher",
+    "productName": "Vitall Launcher",
+    "artifactName": "Vitall-Launcher-${os}-${arch}.${ext}",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -75,7 +75,7 @@
       "allowToChangeInstallationDirectory": true
     },
     "portable": {
-      "artifactName": "Vital-Solutions-${os}-${arch}-portable.${ext}"
+      "artifactName": "Vitall-Launcher-${os}-${arch}-portable.${ext}"
     }
   }
 }

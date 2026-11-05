@@ -5,7 +5,7 @@ const APPS = [
   {
     id: 'syvo', nome: 'Syvo', icone: '💰', estado: 'disponivel',
     descricao: 'Organize seu dinheiro, crie metas, aprenda a investir e prepare o imposto de renda.',
-    repo: 'kauavfialho/syvo-solution', bundleMac: 'Syvo.app', pastaWin: 'syvo', exeWin: 'Syvo.exe'
+    repo: 'kauavfialho/syvo', bundleMac: 'Syvo.app', pastaWin: 'syvo', exeWin: 'Syvo.exe'
   },
   {
     id: 'computador', nome: 'Gestão do computador', icone: '💻', estado: 'em-obras',

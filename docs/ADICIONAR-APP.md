@@ -1,12 +1,12 @@
-# Como colocar um aplicativo no Vital Solutions
+# Como colocar um aplicativo no Vitall Launcher
 
 Guia para levar um projeto novo, como o gerenciador de computador, para o launcher. Serve para quem desenvolve e para um assistente de IA que continue o trabalho em outro computador.
 
 ## Como os projetos se organizam
 
 - Cada aplicativo tem o seu próprio repositório público no GitHub de `kauavfialho`.
-- O `vital-solutions` é só o launcher. Ele instala, abre e atualiza os outros aplicativos.
-- O Syvo é o exemplo pronto: [syvo-solution](https://github.com/kauavfialho/syvo-solution).
+- O `vitall-launcher` é só o launcher. Ele instala, abre e atualiza os outros aplicativos.
+- O Syvo é o exemplo pronto: [syvo](https://github.com/kauavfialho/syvo).
 
 ## O que o aplicativo precisa ter
 
@@ -72,5 +72,5 @@ gh auth login
 2. Abra o Claude Code na pasta do aplicativo e envie:
 
 ```text
-Leia https://github.com/kauavfialho/vital-solutions/blob/main/docs/ADICIONAR-APP.md. Quero publicar este aplicativo no GitHub seguindo esse guia e colocá-lo no launcher Vital Solutions. Primeiro, analise o projeto e procure segredos e dados pessoais em todo o histórico do Git. Depois, me mostre o plano e o que você vai publicar antes de enviar qualquer coisa.
+Leia https://github.com/kauavfialho/vitall-launcher/blob/main/docs/ADICIONAR-APP.md. Quero publicar este aplicativo no GitHub seguindo esse guia e colocá-lo no launcher Vitall Launcher. Primeiro, analise o projeto e procure segredos e dados pessoais em todo o histórico do Git. Depois, me mostre o plano e o que você vai publicar antes de enviar qualquer coisa.
 ```

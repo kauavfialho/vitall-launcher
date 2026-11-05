@@ -9,7 +9,7 @@ const path = require('node:path');
 const { promisify } = require('node:util');
 const { sha512DoYml, arquivoDaRelease } = require('./regras');
 const rodar = promisify(execFile);
-const CABECALHO = { 'User-Agent': 'Vital-Solutions-App' };
+const CABECALHO = { 'User-Agent': 'Vitall-Launcher-App' };
 
 function pastasMac(){
   // o teste automatico instala numa pasta descartavel

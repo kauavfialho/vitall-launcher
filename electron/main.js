@@ -66,7 +66,7 @@ function registrarProtocolo(){
 function criarJanela(){
   janela = new BrowserWindow({
     width: 1000, height: 700, minWidth: 640, minHeight: 520,
-    backgroundColor: '#f1ede2', autoHideMenuBar: true, title: 'Vital Solutions',
+    backgroundColor: '#f1ede2', autoHideMenuBar: true, title: 'Vitall Launcher',
     icon: path.join(__dirname, '..', 'build', 'icon.png'),
     webPreferences: { preload: path.join(__dirname, 'preload.js'), contextIsolation: true, nodeIntegration: false, sandbox: true }
   });
