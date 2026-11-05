@@ -1,0 +1,81 @@
+{
+  "name": "vital-solutions",
+  "productName": "Vital Solutions",
+  "version": "1.0.0",
+  "description": "Launcher dos aplicativos da Vital Solutions",
+  "main": "electron/main.js",
+  "author": "Kauã Fialho",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "test": "node --test testes/*.test.js",
+    "dist:mac": "electron-builder --mac --publish never && node -e \"for(const d of ['dist/mac','dist/mac-arm64'])require('fs').rmSync(d,{recursive:true,force:true})\"",
+    "dist:win": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "45.2.1",
+    "electron-builder": "26.18.0"
+  },
+  "build": {
+    "appId": "com.kauafialho.vitalsolutions",
+    "productName": "Vital Solutions",
+    "artifactName": "Vital-Solutions-${version}-${os}-${arch}.${ext}",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "electron/**",
+      "app/**",
+      "build/icon.png",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        {
+          "target": "dmg",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        },
+        {
+          "target": "zip",
+          "arch": [
+            "arm64",
+            "x64"
+          ]
+        }
+      ],
+      "identity": "-",
+      "hardenedRuntime": false,
+      "gatekeeperAssess": false
+    },
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true
+    },
+    "portable": {
+      "artifactName": "Vital-Solutions-${version}-win-${arch}-portable.${ext}"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert');
+const { versaoMaior, sha512DoYml, arquivoDaRelease, situacao } = require('../electron/regras');
+const { APPS } = require('../electron/catalogo');
+
+const ativo = n => ({ name: n, browser_download_url: 'https://x/' + n });
+const release = { tag_name: 'v2.2.0', assets: ['Syvo-2.2.0-mac-arm64.dmg', 'Syvo-2.2.0-mac-x64.dmg', 'Syvo-2.2.0-win-x64.exe', 'latest.yml', 'latest-mac.yml'].map(ativo) };
+const syvo = APPS.find(a => a.id === 'syvo');
+
+test('compara versao por numero e ignora tag estranha', () => {
+  assert.ok(versaoMaior('v2.10.0', '2.9.0'));
+  assert.ok(!versaoMaior('2.2.0', '2.2.0'));
+  assert.ok(!versaoMaior('beta', '2.2.0'));
+});
+test('escolhe o arquivo do sistema e do processador', () => {
+  assert.strictEqual(arquivoDaRelease(release, 'darwin', 'arm64').arquivo, 'Syvo-2.2.0-mac-arm64.dmg');
+  assert.strictEqual(arquivoDaRelease(release, 'win32', 'x64').arquivo, 'Syvo-2.2.0-win-x64.exe');
+  assert.strictEqual(arquivoDaRelease(release, 'linux', 'x64'), null);
+  assert.strictEqual(arquivoDaRelease({ tag_name: 'v1.0.0', assets: [ativo('Syvo-1.0.0-win-x64.exe')] }, 'win32', 'x64'), null);
+});
+test('acha o sha512 certo', () => {
+  const yml = 'files:\n  - url: a.dmg\n    sha512: AAA\n  - url: b.dmg\n    sha512: BBB\n';
+  assert.strictEqual(sha512DoYml(yml, 'b.dmg'), 'BBB');
+  assert.strictEqual(sha512DoYml(yml, 'c.dmg'), null);
+});
+test('o botao certo para cada situacao', () => {
+  const oferta = { versao: '2.2.0' };
+  assert.strictEqual(situacao(syvo, null, oferta).acao, 'instalar');
+  assert.strictEqual(situacao(syvo, '2.2.0', oferta).acao, 'abrir');
+  assert.strictEqual(situacao(syvo, '2.1.0', oferta).acao, 'atualizar');
+  assert.strictEqual(situacao(syvo, '2.3.0', oferta).acao, 'abrir');
+  assert.strictEqual(situacao(syvo, '2.2.0', null, true).acao, 'abrir');
+  const sem = situacao(syvo, null, null, true);
+  assert.strictEqual(sem.acao, 'indisponivel');
+  assert.match(sem.motivo, /internet/);
+});
+test('catalogo tem o syvo disponivel e as ideias em obras', () => {
+  assert.deepStrictEqual(APPS.map(a => a.id), ['syvo', 'computador', 'vida', 'treinos']);
+  APPS.filter(a => a.id !== 'syvo').forEach(a => {
+    assert.strictEqual(a.estado, 'em-obras');
+    assert.strictEqual(situacao(a).acao, 'em-obras');
+  });
+  APPS.filter(a => a.estado === 'disponivel').forEach(a => {
+    assert.ok(a.repo && a.bundleMac && a.pastaWin && a.exeWin, a.id);
+  });
+});
