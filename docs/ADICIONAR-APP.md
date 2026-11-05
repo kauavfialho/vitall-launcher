@@ -28,6 +28,17 @@ Com Electron e `electron-builder`, os arquivos `latest*.yml` saem sozinhos. Copi
 
 Se o aplicativo não usar Electron, ele precisa gerar os mesmos arquivos. O launcher lê o SHA-512 de cada instalador no `latest*.yml`, no formato `- url:` seguido de `sha512:` em base64.
 
+## Idiomas
+
+Todo aplicativo precisa funcionar em português, inglês e espanhol:
+
+- O seletor `PT | EN | ES` fica sempre à vista no topo da tela, nunca escondido em um menu.
+- Na primeira abertura, o app usa o idioma do sistema. Se não for um dos três, usa inglês.
+- A escolha fica salva e nada é perdido ao trocar de idioma.
+- O app precisa ter logo própria em `build/icon.png`, com pelo menos 512 x 512 pixels.
+
+O Syvo e o launcher servem de exemplo: veja `app/js/i18n.js` no Syvo e `app/js/launcher.js` aqui.
+
 ## Como ligar ao launcher
 
 Em `electron/catalogo.js`, troque o cartão de `em-obras` para `disponivel`:

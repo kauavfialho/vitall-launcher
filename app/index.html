@@ -9,11 +9,15 @@
 </head>
 <body>
   <header class="topo">
-    <h1>Vitall Launcher</h1>
-    <p>Seus aplicativos em um só lugar.</p>
+    <img class="logo" src="assets/logo.png" alt="">
+    <div class="topo-texto">
+      <h1>Vitall Launcher</h1>
+      <p id="subtitulo">Seus aplicativos em um só lugar.</p>
+    </div>
+    <div class="seletor-idioma" id="idiomas" role="group" aria-label="Language / Idioma"></div>
   </header>
   <main>
-    <div class="grade" id="apps" aria-live="polite"><p class="carregando">Carregando…</p></div>
+    <div class="grade" id="apps" aria-live="polite"><p class="carregando" id="carregando"></p></div>
   </main>
   <footer class="rodape" id="versao"></footer>
   <script src="js/launcher.js"></script>

@@ -1,7 +1,7 @@
 {
   "name": "vitall-launcher",
   "productName": "Vitall Launcher",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Launcher dos aplicativos da Vitall Studios",
   "main": "electron/main.js",
   "author": "Kauã Fialho",

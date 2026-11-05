@@ -6,7 +6,12 @@
 }
 *{ box-sizing:border-box; }
 body{ margin:0; min-height:100vh; display:flex; flex-direction:column; background:var(--fundo); color:var(--tinta); font-family:'IBM Plex Sans',system-ui,sans-serif; font-size:17px; line-height:1.45; }
-.topo{ padding:36px 40px 12px; }
+.topo{ padding:32px 40px 12px; display:flex; align-items:center; gap:16px; }
+.logo{ width:64px; height:64px; flex:0 0 auto; }
+.topo-texto{ flex:1; min-width:0; }
+.seletor-idioma{ display:flex; gap:2px; padding:3px; border-radius:999px; border:1px solid var(--linha); background:var(--cartao); flex:0 0 auto; }
+.seletor-idioma button{ min-height:36px; min-width:42px; padding:0 8px; border-radius:999px; background:transparent; color:var(--tinta); font-size:0.85rem; }
+.seletor-idioma button.ativo{ background:var(--tinta); color:var(--fundo); }
 .topo h1{ margin:0; font-size:1.9rem; font-weight:600; }
 .topo p{ margin:4px 0 0; color:var(--suave); }
 main{ flex:1; padding:12px 40px 24px; }

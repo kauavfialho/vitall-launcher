@@ -1,10 +1,12 @@
+<img src="build/icon.png" width="96" alt="">
+
 # Vitall Launcher
 
 **🌐 Language:** **English** | [Português](https://github.com/kauavfialho/vitall-launcher/blob/main/README.pt-BR.md)
 
 A free launcher that brings the Vitall Studios apps together in one place. Use it to install, open and update each app, without hunting for files. Each project has its own repository.
 
-> The launcher and its apps are currently available in Portuguese only.
+> Choose Portuguese, English or Spanish with the selector at the top of each app.
 
 ## Apps
 
