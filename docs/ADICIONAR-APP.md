@@ -16,11 +16,13 @@ Guia para levar um projeto novo, como o gerenciador de computador, para o launch
 
 | Arquivo | Para quê |
 |---|---|
-| `Nome-x.y.z-mac-arm64.dmg` | Instalador do Mac com Apple Silicon |
-| `Nome-x.y.z-mac-x64.dmg` | Instalador do Mac com Intel |
-| `Nome-x.y.z-win-x64.exe` | Instalador do Windows, que aceita instalação silenciosa com `/S` |
+| `Nome-mac-arm64.dmg` | Instalador do Mac com Apple Silicon |
+| `Nome-mac-x64.dmg` | Instalador do Mac com Intel |
+| `Nome-win-x64.exe` | Instalador do Windows, que aceita instalação silenciosa com `/S` |
 | `latest-mac.yml` e `latest.yml` | Códigos SHA-512 que o launcher confere antes de instalar |
-| `Nome-x.y.z-mac-arm64.zip`, `Nome-x.y.z-mac-x64.zip` e `Nome-x.y.z-win-x64-portable.exe` | Versões portáteis, para baixar sem instalar |
+| `Nome-mac-arm64.zip`, `Nome-mac-x64.zip` e `Nome-win-x64-portable.exe` | Versões portáteis, para baixar sem instalar |
+
+Os nomes não levam a versão de propósito: assim o link `releases/latest/download/` nunca quebra e o README pode ter download direto.
 
 Com Electron e `electron-builder`, os arquivos `latest*.yml` saem sozinhos. Copie a seção `build` do `package.json` e o `.github/workflows/instaladores.yml` deste repositório, e troque o nome do aplicativo.
 

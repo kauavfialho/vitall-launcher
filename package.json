@@ -1,7 +1,7 @@
 {
   "name": "vital-solutions",
   "productName": "Vital Solutions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Launcher dos aplicativos da Vital Solutions",
   "main": "electron/main.js",
   "author": "Kauã Fialho",
@@ -20,7 +20,7 @@
   "build": {
     "appId": "com.kauafialho.vitalsolutions",
     "productName": "Vital Solutions",
-    "artifactName": "Vital-Solutions-${version}-${os}-${arch}.${ext}",
+    "artifactName": "Vital-Solutions-${os}-${arch}.${ext}",
     "directories": {
       "output": "dist",
       "buildResources": "build"
@@ -75,7 +75,7 @@
       "allowToChangeInstallationDirectory": true
     },
     "portable": {
-      "artifactName": "Vital-Solutions-${version}-win-${arch}-portable.${ext}"
+      "artifactName": "Vital-Solutions-${os}-${arch}-portable.${ext}"
     }
   }
 }

@@ -45,3 +45,10 @@ test('catalogo tem o syvo disponivel e as ideias em obras', () => {
     assert.ok(a.repo && a.bundleMac && a.pastaWin && a.exeWin, a.id);
   });
 });
+
+test('nome sem versao tambem e reconhecido', () => {
+  const r = { tag_name: 'v3.0.0', assets: ['App-mac-arm64.dmg', 'App-mac-arm64.zip', 'App-win-x64.exe', 'App-win-x64-portable.exe', 'latest.yml', 'latest-mac.yml'].map(ativo) };
+  assert.strictEqual(arquivoDaRelease(r, 'darwin', 'arm64').arquivo, 'App-mac-arm64.dmg');
+  assert.strictEqual(arquivoDaRelease(r, 'win32', 'x64').arquivo, 'App-win-x64.exe');
+  assert.strictEqual(arquivoDaRelease(r, 'darwin', 'arm64').versao, '3.0.0');
+});
