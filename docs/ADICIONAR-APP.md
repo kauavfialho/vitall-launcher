@@ -10,7 +10,7 @@ Guia para levar um projeto novo, como o gerenciador de computador, para o launch
 
 ## O que o aplicativo precisa ter
 
-1. Um repositório público, com licença MIT e README em dois idiomas: `README.md` em português e `README.en.md` em inglês, com o seletor de idioma no topo.
+1. Um repositório público, com licença MIT e README em dois idiomas: `README.md` em inglês, que é o padrão, e `README.pt-BR.md` em português, com o seletor de idioma no topo.
 2. Uma Release com tag no formato `vX.Y.Z`, sem nada depois do número.
 3. Estes arquivos em cada Release:
 

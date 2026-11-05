@@ -1,56 +1,57 @@
 # Vitall Launcher
 
-**🌐 Idioma:** **Português** | [English](https://github.com/kauavfialho/vitall-launcher/blob/main/README.en.md)
+**🌐 Language:** **English** | [Português](https://github.com/kauavfialho/vitall-launcher/blob/main/README.pt-BR.md)
 
-Um launcher gratuito que reúne os aplicativos da Vitall Studios em um só lugar. Por ele, você instala, abre e atualiza cada um, sem ficar procurando arquivos. Cada projeto tem o seu próprio repositório.
+A free launcher that brings the Vitall Studios apps together in one place. Use it to install, open and update each app, without hunting for files. Each project has its own repository.
 
-## Aplicativos
+> The launcher and its apps are currently available in Portuguese only.
 
-| Aplicativo | O que faz | Situação | Projeto |
+## Apps
+
+| App | What it does | Status | Project |
 |---|---|---|---|
-| 💰 Syvo | Organiza o dinheiro, cria metas, ensina a investir e ajuda a preparar o imposto de renda. | Disponível | [syvo](https://github.com/kauavfialho/syvo) |
-| 💻 Gestão do computador | Cuida do computador e ajuda a fazer backup dos arquivos. | Em obras | Em breve |
-| 🗓️ Gestão da vida | Organiza rotina, tarefas e objetivos. | Em obras | Em breve |
-| 💪 Dieta e treinos | Acompanha alimentação, academia e treinos. | Em obras | Em breve |
+| 💰 Syvo | Organizes your money, sets goals, teaches you to invest and helps you prepare your Brazilian income tax. | Available | [syvo](https://github.com/kauavfialho/syvo) |
+| 💻 Computer management | Takes care of your computer and helps you back up your files. | In progress | Coming soon |
+| 🗓️ Life management | Organizes your routine, tasks and goals. | In progress | Coming soon |
+| 💪 Diet and workouts | Tracks your food, gym sessions and workouts. | In progress | Coming soon |
 
-## Baixar
+## Download
 
-Clique no arquivo do seu computador e o download começa na hora. O link sempre traz a versão mais recente, e o tamanho é aproximado.
+Click the file for your computer and the download starts right away. The link always gets the latest version, and the sizes are approximate.
 
-### Instalador (recomendado)
+### Installer (recommended)
 
-| Computador | Download | Tamanho |
+| Computer | Download | Size |
 |---|---|---|
-| Windows 64 bits | [⬇️ Baixar para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64.exe) | 116 MB |
-| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar para Mac Apple (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.dmg) | 115 MB |
-| Mac com processador Intel | [⬇️ Baixar para Mac Intel (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.dmg) | 121 MB |
+| 64-bit Windows | [⬇️ Download for Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64.exe) | 116 MB |
+| Mac with Apple chip (M1, M2, M3 or newer) | [⬇️ Download for Apple Mac (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.dmg) | 115 MB |
+| Mac with Intel processor | [⬇️ Download for Intel Mac (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.dmg) | 121 MB |
 
-### Portátil (usa sem instalar)
+### Portable (no installation needed)
 
-| Computador | Download | Tamanho |
+| Computer | Download | Size |
 |---|---|---|
-| Windows 64 bits | [⬇️ Baixar portátil para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64-portable.exe) | 105 MB |
-| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar portátil para Mac Apple (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.zip) | 112 MB |
-| Mac com processador Intel | [⬇️ Baixar portátil para Mac Intel (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.zip) | 117 MB |
+| 64-bit Windows | [⬇️ Download portable for Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64-portable.exe) | 105 MB |
+| Mac with Apple chip (M1, M2, M3 or newer) | [⬇️ Download portable for Apple Mac (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.zip) | 112 MB |
+| Mac with Intel processor | [⬇️ Download portable for Intel Mac (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.zip) | 117 MB |
 
-Não sabe qual é o seu Mac? Clique na maçã, no canto da tela, e depois em **Sobre Este Mac**. No Windows, os arquivos são para sistemas de 64 bits, que é o padrão dos computadores atuais. Não há versão para Windows 32 bits.
+Not sure which Mac you have? Click the Apple menu in the corner of the screen, then **About This Mac**. The Windows files are for 64-bit systems, the standard on current computers. There is no version for 32-bit Windows.
 
-Veja [todas as versões](https://github.com/kauavfialho/vitall-launcher/releases).
+See [all versions](https://github.com/kauavfialho/vitall-launcher/releases).
 
-O app não tem certificado pago, então o sistema avisa na primeira vez.
+The app has no paid certificate, so your system shows a warning the first time.
 
-**Mac:** se aparecer um aviso de que o app não pode ser aberto, vá em Ajustes do Sistema, Privacidade e Segurança, e clique em "Abrir Mesmo Assim". Se o aviso disser que o app está danificado, rode no Terminal:
+**Mac:** if a warning says the app can't be opened, go to System Settings, Privacy & Security, and click "Open Anyway". If the warning says the app is damaged, run this in Terminal:
 
 ```bash
 xattr -cr "/Applications/Vitall Launcher.app"
 ```
 
-**Windows:** na tela azul do SmartScreen, clique em "Mais informações" e depois em "Executar assim mesmo".
+**Windows:** on the blue SmartScreen window, click "More info" and then "Run anyway".
 
-## Para quem desenvolve
+## For developers
 
-Para adicionar um aplicativo, siga o guia [Como colocar um aplicativo no Vitall Launcher](docs/ADICIONAR-APP.md).
-
+To add an app, follow the guide [Como colocar um aplicativo no Vitall Launcher](docs/ADICIONAR-APP.md) (in Portuguese).
 
 ```bash
 npm install
@@ -64,8 +65,8 @@ npm start
 npm test
 ```
 
-Para publicar uma versão, atualize `version` no `package.json` e envie uma tag `v*`.
+To publish a version, update `version` in `package.json` and push a `v*` tag.
 
-## Licença
+## License
 
 MIT.
