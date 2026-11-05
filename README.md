@@ -13,23 +13,23 @@ Um launcher gratuito que reúne os aplicativos da Vitall Studios em um só lugar
 
 ## Baixar
 
-Clique no arquivo do seu computador e o download começa na hora. O link sempre traz a versão mais recente.
+Clique no arquivo do seu computador e o download começa na hora. O link sempre traz a versão mais recente, e o tamanho é aproximado.
 
 ### Instalador (recomendado)
 
-| Computador | Download |
-|---|---|
-| Windows 64 bits | [⬇️ Baixar para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64.exe) |
-| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar para Mac Apple (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.dmg) |
-| Mac com processador Intel | [⬇️ Baixar para Mac Intel (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.dmg) |
+| Computador | Download | Tamanho |
+|---|---|---|
+| Windows 64 bits | [⬇️ Baixar para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64.exe) | 116 MB |
+| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar para Mac Apple (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.dmg) | 115 MB |
+| Mac com processador Intel | [⬇️ Baixar para Mac Intel (.dmg)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.dmg) | 121 MB |
 
 ### Portátil (usa sem instalar)
 
-| Computador | Download |
-|---|---|
-| Windows 64 bits | [⬇️ Baixar portátil para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64-portable.exe) |
-| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar portátil para Mac Apple (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.zip) |
-| Mac com processador Intel | [⬇️ Baixar portátil para Mac Intel (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.zip) |
+| Computador | Download | Tamanho |
+|---|---|---|
+| Windows 64 bits | [⬇️ Baixar portátil para Windows (.exe)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-win-x64-portable.exe) | 105 MB |
+| Mac com chip Apple (M1, M2, M3 ou mais novo) | [⬇️ Baixar portátil para Mac Apple (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-arm64.zip) | 112 MB |
+| Mac com processador Intel | [⬇️ Baixar portátil para Mac Intel (.zip)](https://github.com/kauavfialho/vitall-launcher/releases/latest/download/Vitall-Launcher-mac-x64.zip) | 117 MB |
 
 Não sabe qual é o seu Mac? Clique na maçã, no canto da tela, e depois em **Sobre Este Mac**. No Windows, os arquivos são para sistemas de 64 bits, que é o padrão dos computadores atuais. Não há versão para Windows 32 bits.
 
