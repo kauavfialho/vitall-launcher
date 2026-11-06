@@ -8,8 +8,9 @@ const APPS = [
     repo: 'kauavfialho/syvo', bundleMac: 'Syvo.app', pastaWin: 'syvo', exeWin: 'Syvo.exe'
   },
   {
-    id: 'computador', nome: 'Gestão do computador', icone: '💻', estado: 'em-obras',
-    descricao: 'Cuide do seu computador e faça backup dos seus arquivos.'
+    id: 'computador', nome: 'Bastion', icone: '💻', estado: 'disponivel',
+    descricao: 'Cuide do seu computador: saúde do PC, limpeza, jogos, periféricos e formatação. Só para Windows.',
+    repo: 'kauavfialho/bastion', bundleMac: 'Bastion.app', pastaWin: 'bastion', exeWin: 'Bastion.exe'
   },
   {
     id: 'vida', nome: 'Gestão da vida', icone: '🗓️', estado: 'em-obras',

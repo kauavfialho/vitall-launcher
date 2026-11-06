@@ -63,5 +63,5 @@ jobs:
         run: |
           gh release create "$GITHUB_REF_NAME" instaladores/* \
             --repo "$GITHUB_REPOSITORY" \
-            --title "Syvo $GITHUB_REF_NAME" \
+            --title "Vitall Launcher $GITHUB_REF_NAME" \
             --notes "Baixe o instalador (.dmg no Mac, .exe no Windows) ou a versão portátil (.zip no Mac, -portable.exe no Windows). Veja o README para abrir o app na primeira vez."

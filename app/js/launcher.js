@@ -6,7 +6,7 @@
     en: {
       'Seus aplicativos em um só lugar.': 'All your apps in one place.', 'Carregando…': 'Loading…',
       'Organize seu dinheiro, crie metas, aprenda a investir e prepare o imposto de renda.': 'Organize your money, set goals, learn to invest and prepare your Brazilian income tax.',
-      'Gestão do computador': 'Computer management', 'Cuide do seu computador e faça backup dos seus arquivos.': 'Take care of your computer and back up your files.',
+      'Cuide do seu computador: saúde do PC, limpeza, jogos, periféricos e formatação. Só para Windows.': 'Take care of your computer: PC health, cleanup, games, peripherals and formatting. Windows only.',
       'Gestão da vida': 'Life management', 'Organize sua rotina, suas tarefas e seus objetivos em um só lugar.': 'Organize your routine, tasks and goals in one place.',
       'Dieta e treinos': 'Diet and workouts', 'Acompanhe sua alimentação, sua academia e seus treinos.': 'Track your food, gym sessions and workouts.',
       '🚧 Em obras': '🚧 In progress', 'Em breve': 'Coming soon', 'Instalado': 'Installed', 'Abrir': 'Open', 'Versão': 'Version', 'Instalar versão': 'Install version', 'Atualizar para': 'Update to',
@@ -20,7 +20,7 @@
     es: {
       'Seus aplicativos em um só lugar.': 'Tus aplicaciones en un solo lugar.', 'Carregando…': 'Cargando…',
       'Organize seu dinheiro, crie metas, aprenda a investir e prepare o imposto de renda.': 'Organiza tu dinero, crea metas, aprende a invertir y prepara el impuesto sobre la renta de Brasil.',
-      'Gestão do computador': 'Gestión de la computadora', 'Cuide do seu computador e faça backup dos seus arquivos.': 'Cuida tu computadora y haz copias de seguridad de tus archivos.',
+      'Cuide do seu computador: saúde do PC, limpeza, jogos, periféricos e formatação. Só para Windows.': 'Cuida tu computadora: salud del PC, limpieza, juegos, periféricos y formateo. Solo para Windows.',
       'Gestão da vida': 'Gestión de la vida', 'Organize sua rotina, suas tarefas e seus objetivos em um só lugar.': 'Organiza tu rutina, tus tareas y tus objetivos en un solo lugar.',
       'Dieta e treinos': 'Dieta y entrenamientos', 'Acompanhe sua alimentação, sua academia e seus treinos.': 'Sigue tu alimentación, tu gimnasio y tus entrenamientos.',
       '🚧 Em obras': '🚧 En obras', 'Em breve': 'Próximamente', 'Instalado': 'Instalado', 'Abrir': 'Abrir', 'Versão': 'Versión', 'Instalar versão': 'Instalar versión', 'Atualizar para': 'Actualizar a',

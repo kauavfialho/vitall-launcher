@@ -13,7 +13,7 @@ O app está disponível em português, inglês e espanhol: é só escolher no se
 | Aplicativo | O que faz | Situação | Projeto |
 |---|---|---|---|
 | 💰 Syvo | Organiza o dinheiro, cria metas, ensina a investir e ajuda a preparar o imposto de renda. | Disponível | [syvo](https://github.com/kauavfialho/syvo/blob/main/README.pt-BR.md) |
-| 💻 Gestão do computador | Cuida do computador e ajuda a fazer backup dos arquivos. | Em obras | Em breve |
+| 💻 Bastion | Cuida do computador: saúde do PC, limpeza, jogos, periféricos e formatação. Só para Windows. | Disponível | [bastion](https://github.com/kauavfialho/bastion) |
 | 🗓️ Gestão da vida | Organiza rotina, tarefas e objetivos. | Em obras | Em breve |
 | 💪 Dieta e treinos | Acompanha alimentação, academia e treinos. | Em obras | Em breve |
 

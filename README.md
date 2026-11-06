@@ -13,7 +13,7 @@ A free launcher that brings the Vitall Studios apps together in one place. Use i
 | App | What it does | Status | Project |
 |---|---|---|---|
 | 💰 Syvo | Organizes your money, sets goals, teaches you to invest and helps you prepare your Brazilian income tax. | Available | [syvo](https://github.com/kauavfialho/syvo) |
-| 💻 Computer management | Takes care of your computer and helps you back up your files. | In progress | Coming soon |
+| 💻 Bastion | Takes care of your computer: PC health, cleanup, games, peripherals and formatting. Windows only. | Available | [bastion](https://github.com/kauavfialho/bastion) |
 | 🗓️ Life management | Organizes your routine, tasks and goals. | In progress | Coming soon |
 | 💪 Diet and workouts | Tracks your food, gym sessions and workouts. | In progress | Coming soon |
 
